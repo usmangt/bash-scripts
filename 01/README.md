@@ -2,7 +2,7 @@
 
 There are 2 bash scripts in this folder.
 
-- The 1st script named `main.sh` basically collects all the users on the system including their home directory (from /etc/passwd file) and then print it out
+- The 1st script named `main.sh` basically collects all the users on the system including their home directory (from the `/etc/passwd` file) and then print it out
   
   
 - The 2nd script `compare.sh` actually compare the md5 checkum which gets generated insited the crontab every hour.
