@@ -29,7 +29,7 @@ PATH_TO_LOGS=/root/dummy-metrics-generator.log
 
 # This cron job will run 5 minutes
 
-*/5 * * * * $PATH_TO_SCRIPT >> PATH_TO_LOGS 2>&1
+*/5 * * * * $PATH_TO_SCRIPT >> $PATH_TO_LOGS 2>&1
 
 ```
 
